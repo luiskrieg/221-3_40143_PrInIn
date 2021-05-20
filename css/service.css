@@ -1,6 +1,6 @@
 body{
     background-color: black;
-    color: greenyellow;
+    color: orangered;
     font-family: monospace;
 }
 
@@ -30,4 +30,20 @@ div.text{
 body > header > div > img{
     height: 70%;
     width: 70%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+  
+td, th {
+    border: 1px solid orangered;
+    text-align: center;
+    padding: 5px;
+}
+  
+tr:nth-child(even) {
+    background-color: greenyellow;
+    color: black;
 }
